@@ -1,0 +1,38 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+    padding: 0px;
+    height: 100vh;
+    background-image: url("https://img.freepik.com/vetores-gratis/copie-o-fundo-digital-dos-circuitos-azuis-do-espaco_23-2148821699.jpg?w=1060&t=st=1727828143~exp=1727828743~hmac=978c1e6520e4bddaf47d5f0ece4d389703b3a78a178dcb83dcec67139d7f786a");
+    background-repeat: no-repeat;
+    background-size: cover;
+    backdrop-filter: blur(10px);;
+}
+main {
+    display: flex;
+    background-color: rgb(25, 0, 108);
+    gap: 30px;
+    border-radius: 30px;
+    width: 1000px;
+    height: 600px;
+}
+.inicio  {
+    background-color: rgb(131, 131, 131);
+    padding: 50px;
+    margin: 20px;
+    border-radius: 30px;
+}
+.inicio .imgNome img {
+    border-radius: 50%;
+    height: 180px;
+}
+.tecnologia {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+.tecnologia h3 {
+    margin: 0px;
+}
